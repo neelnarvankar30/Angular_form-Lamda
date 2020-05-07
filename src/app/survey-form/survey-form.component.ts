@@ -49,16 +49,16 @@ export class SurveyFormComponent implements OnInit {
     //n = "State=NY&Tel_NO=1234567";
     var test = {  
       "FirstName": this.uploadForm.get('customerFirstName').value,
-      "Lastname":this.uploadForm.get('customerLastName').value,
-      "Street_Addr": this.uploadForm.get('addressstreet').value,
+      "LastName":this.uploadForm.get('customerLastName').value,
+      "StreetAddr": this.uploadForm.get('addressstreet').value,
       "City":this.uploadForm.get('addresscity').value,
       "State":this.uploadForm.get('addressstate').value,
-      "ZIP":this.uploadForm.get('addresszip').value,
-      "Tel_NO":this.uploadForm.get('contactphone').value,
-      "E_Mail":this.uploadForm.get('contactemail').value,
+      "Zip":this.uploadForm.get('addresszip').value,
+      "Tel_No":this.uploadForm.get('contactphone').value,
+      "E_mail":this.uploadForm.get('contactemail').value,
       "Dat":this.uploadForm.get('Date').value,
       "Abt_Campus":this.uploadForm.get('student').value,
-      "Uni_Ist":this.uploadForm.get('interest').value,
+      "Uni_List":this.uploadForm.get('interest').value,
       "Recommendation":this.uploadForm.get('referral').value,      
 
     }

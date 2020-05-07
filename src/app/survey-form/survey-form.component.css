@@ -1,0 +1,155 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h3, h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+:host {
+    display: block;
+    padding: 2em;
+    margin-bottom: 40px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul > li {
+    margin-bottom: 4px;
+  }
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
+  form > section {
+    margin-bottom: 2em;
+  }
+  form > section > h1 {
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-bottom: 4px solid #f1f1f1;
+    position: relative;
+    margin-bottom: 1em;
+  }
+  form > section > section > h1 {
+    text-transform: uppercase;
+  }
+  form > section > section {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    cursor: pointer;
+  }
+  label:hover, input:checked+label {
+    color: blue;
+  }
+  input[type=text] {
+    border: 0;
+    padding: 15px;
+    color: blue;
+    background-color: transparent;
+  }
+  input[type=text] {
+    border-bottom: 2px solid #f1f1f1;
+  }
+  input[type=text]:focus,
+  select:focus {
+    outline: none;
+  }
+  
+  input[type=number] {
+    border: 0;
+    padding: 15px;
+    color: blue;
+    background-color: transparent;
+  }
+  input[type=number] {
+    border-bottom: 2px solid #f1f1f1;
+  }
+  input[type=number]:focus {
+    outline: none;
+  }
+  select {
+    border: 0;
+    border-bottom: 2px solid #f1f1f1;
+    padding: 4px;
+    cursor: pointer;
+    color: blue;
+    background-color: transparent;
+  }
+  input[type=checkbox], input[type=radio] {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    margin: 20px auto;
+  }
+  button {
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(250, 212, 139);
+    color: #262223;
+    padding: 12px;
+    margin-right: 15px;
+    border: 2px solid black;
+  }
+  button:hover {
+    background-color: rgb(148, 192, 204);
+  }
+  button:focus {
+    outline: none;
+  }
+  .customer-first-name , .customer-last-name,  input[type=text] {
+    width: 100%;
+
+  }
+
+  .customer-first-name input[type=text].ng-touched {
+    border: 4px solid grey;
+  }
+  .customer-street-address input[type=text].ng-touched {
+    border: 4px solid grey;
+  }
+  .customer-city input[type=text].ng-touched {
+    border: 4px solid grey;
+  }
+  .customer-state input[type=text].ng-touched {
+    border: 4px solid grey;
+  }
+  .customer-zip input[type=text].ng-touched {
+    border: 4px solid grey;
+  }
+  .customer-contact-email input[type=text].ng-touched {
+    border: 4px solid grey;
+  }
+  .customer-contact-phone input[type=text].ng-touched {
+    border: 4px solid grey;
+  }
+
+  .customer-last-name input[type=text].ng-touched {
+    border: 4px solid grey;
+  }
+
+  .customer-first-name input[type=text].ng-invalid {
+    border: 4px solid red;
+  }
+
+  .customer-last-name input[type=text].ng-invalid{
+    border: 4px solid red;
+  }
+
+  
+  .errors {
+    color: red;
+  }
+  button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background: #ccc;
+    border: #ccc;
+    color: white;
+  }
